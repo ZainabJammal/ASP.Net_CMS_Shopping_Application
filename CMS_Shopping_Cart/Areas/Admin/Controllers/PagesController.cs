@@ -20,6 +20,7 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
             IQueryable<Page> pages = from p in context.Pages orderby p.Sorting select p;
             List<Page> pagesList = await pages.ToListAsync();
 
+
             return View(pagesList);
         }
 
@@ -38,6 +39,7 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
 
         //POST /admin/pages/create
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Page page)
         {
             if (ModelState.IsValid != null)
