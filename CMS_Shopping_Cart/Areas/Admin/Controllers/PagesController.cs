@@ -40,7 +40,7 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Page page)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid != null)
             {
                 page.Slug = page.Title.ToLower().Replace(" ", "-");
                 page.Sorting = 100;
@@ -54,6 +54,8 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
 
                 context.Add(page);
                 await context.SaveChangesAsync();
+
+                TempData["Success"] = "The page created successfully!";
 
                 return RedirectToAction("Index");
             }
