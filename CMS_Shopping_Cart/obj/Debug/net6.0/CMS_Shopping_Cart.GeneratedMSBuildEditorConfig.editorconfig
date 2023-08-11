@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Zeinab/source/repos/ZainabAlJammal/.Net2023ZainabAlJammal/CMS_Shopping_Cart/Areas/Admin/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Zeinab/source/repos/ZainabAlJammal/.Net2023ZainabAlJammal/CMS_Shopping_Cart/Areas/Admin/Views/Pages/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGFnZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
