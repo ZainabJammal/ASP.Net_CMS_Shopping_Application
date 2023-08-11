@@ -118,5 +118,23 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
 
             return RedirectToAction("Index");
         }
+
+        //POST /admin/pages/reorder
+        [HttpPost]
+        public async Task<IActionResult> Reorder(int[] id)
+        {
+            int count = 1;
+
+            foreach(var pageId in id)
+            {
+                Page page = await context.Pages.FindAsync(pageId);
+                page.Sorting = count;
+                context.Update(page);
+                await context.SaveChangesAsync();
+                count++;
+            }
+
+            return Ok();
+        }
     }
 }
