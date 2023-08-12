@@ -87,5 +87,40 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
 
             return View(category);
         }
+
+        //GET /admin/categories/delete/5
+        public async Task<IActionResult> Delete(int id)
+        {
+            Category category = await context.Categories.FindAsync(id);
+            if (category == null)
+                TempData["Error"] = "The category doesn't exist!";
+            else
+            {
+                context.Remove(category);
+                await context.SaveChangesAsync();
+
+                TempData["Success"] = "The category deleted successfully!";
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        //POST /admin/categories/reorder
+        [HttpPost]
+        public async Task<IActionResult> Reorder(int[] id)
+        {
+            int count = 1;
+
+            foreach (var categoryId in id)
+            {
+                Category category = await context.Categories.FindAsync(categoryId);
+                category.Sorting = count;
+                context.Update(category);
+                await context.SaveChangesAsync();
+                count++;
+            }
+
+            return Ok();
+        }
     }
 }

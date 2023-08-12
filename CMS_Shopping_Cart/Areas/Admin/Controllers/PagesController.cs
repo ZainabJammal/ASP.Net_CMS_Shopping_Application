@@ -107,7 +107,7 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
         {
             Page page = await context.Pages.FindAsync(id);
             if (page == null)
-                TempData["Error"] = "The doesn't exist!";
+                TempData["Error"] = "The page doesn't exist!";
             else
             {
                 context.Remove(page);
