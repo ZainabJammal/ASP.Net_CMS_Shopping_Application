@@ -11,9 +11,10 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
     {
         private readonly CmsShoppingCartContext context;
         private readonly IWebHostEnvironment webHostEnvironment;
-        public ProductsController(CmsShoppingCartContext context)
+        public ProductsController(CmsShoppingCartContext context, IWebHostEnvironment webHostEnvironment)
         {
             this.context = context;
+            this.webHostEnvironment = webHostEnvironment;
         }
 
         //GET /admin/products
@@ -35,6 +36,7 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Product product)
         {
+            ViewBag.CategoryId = new SelectList(context.Categories.OrderBy(x => x.Sorting), "Id", "Name");
             if (ModelState.IsValid != null)
             {
                 product.Slug = product.Name.ToLower().Replace(" ", "-");

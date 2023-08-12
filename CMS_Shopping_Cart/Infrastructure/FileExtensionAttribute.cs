@@ -11,7 +11,7 @@ namespace CMS_Shopping_Cart.Infrastructure
 {
     public class FileExtensionAttribute : ValidationAttribute
     {
-        protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
+        protected override ValidationResult? IsValid(object value, ValidationContext validationContext)
         {
             //var context = (CmsShoppingCartContext)validationContext.GetService(typeof(CmsShoppingCartContext));
 
@@ -23,7 +23,7 @@ namespace CMS_Shopping_Cart.Infrastructure
                 string[] extensions = { "jpg", "png" };
                 bool result = extensions.Any(x => extension.EndsWith(x));
 
-                if(!result)
+                if(result != null)
                 {
                     return new ValidationResult(GetErrorMessage());
                 }
