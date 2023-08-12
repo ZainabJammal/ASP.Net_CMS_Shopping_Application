@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using CMS_Shopping_Cart.Infrastructure;
 using Microsoft.AspNetCore.Http;
 
 namespace CMS_Shopping_Cart.Models
@@ -22,6 +23,7 @@ namespace CMS_Shopping_Cart.Models
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
         [NotMapped]
+        [FileExtension]
         public IFormFile ImageUpload { get; set; }
     }
 }
