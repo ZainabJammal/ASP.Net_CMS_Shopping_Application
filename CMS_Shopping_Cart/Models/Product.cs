@@ -22,6 +22,7 @@ namespace CMS_Shopping_Cart.Models
 
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
+
         [NotMapped]
         [FileExtension]
         public IFormFile ImageUpload { get; set; }
