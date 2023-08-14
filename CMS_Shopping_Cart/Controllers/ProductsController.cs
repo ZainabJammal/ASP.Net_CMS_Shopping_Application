@@ -30,7 +30,7 @@ namespace CMS_Shopping_Cart.Controllers
         }
 
         //GET / products/category
-        public async Task<IActionResult> ProductsByCategory(string categorySlug, int p = 1)
+        public async Task<IActionResult> ProductsByCategory(string categorySlug= "", int p = 1)
         {
             Category category = await context.Categories.Where(x => x.Slug == categorySlug).FirstOrDefaultAsync();
             if (category == null) return RedirectToAction("Index");

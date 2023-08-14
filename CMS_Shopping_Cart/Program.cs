@@ -53,7 +53,7 @@ app.MapControllerRoute(
 app.MapControllerRoute(
         "products",
         "products/{categorySlug}",
-        defaults: new { controller = "Products", action = "ProductsByCategory" }
+        defaults: new { controller = "Products", action = "Index" }
         );
 
 app.MapControllerRoute(

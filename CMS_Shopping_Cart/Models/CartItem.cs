@@ -9,6 +9,10 @@
         public decimal Total { get { return Quantity * Price; } }
         public string Image { get; set; }
 
+        public CartItem()
+        {
+
+        }
         public CartItem(Product product)
         {
             ProductId = product.Id;
