@@ -1,10 +1,17 @@
 using CMS_Shopping_Cart.Infrastructure;
 using CMS_Shopping_Cart.Models;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddMemoryCache();
+builder.Services.AddSession(options =>
+{
+    //options.IdleTimeout = TimeSpan.FromSeconds(2);
+    //options.IdleTimeout = TimeSpan.FromDays(2);
+});
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<CmsShoppingCartContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CmsShoppingCartContext")));
 
@@ -33,8 +40,21 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
 
 app.UseAuthorization();
+
+app.MapControllerRoute(
+    "pages",
+    "{slug?}",
+    defaults: new {controller = "Pages" , action = "Page"}
+   );
+
+app.MapControllerRoute(
+        "products",
+        "products/{categorySlug}",
+        defaults: new { controller = "Products", action = "ProductsByCategory" }
+        );
 
 app.MapControllerRoute(
             name: "areas",
@@ -43,6 +63,7 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+   );
 
 app.Run();
