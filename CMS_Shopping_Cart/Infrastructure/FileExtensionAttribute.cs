@@ -25,7 +25,7 @@ namespace CMS_Shopping_Cart.Infrastructure
             return ValidationResult.Success;
         }
 
-        private string GetErrorMessage()
+        public string GetErrorMessage()
         {
             return "Allowed extensions are jpg and png.";
         }

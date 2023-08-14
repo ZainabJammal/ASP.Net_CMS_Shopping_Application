@@ -110,7 +110,7 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
                 TempData["Error"] = "The page doesn't exist!";
             else
             {
-                context.Remove(page);
+                context.Pages.Remove(page);
                 await context.SaveChangesAsync();
 
                 TempData["Success"] = "The page deleted successfully!";

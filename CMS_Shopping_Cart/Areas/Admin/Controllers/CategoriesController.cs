@@ -61,7 +61,7 @@ namespace CMS_Shopping_Cart.Areas.Admin.Controllers
             return View(category);
         }
 
-        //POST /admin/pages/edit
+        //POST /admin/categories/edit
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Category category)
