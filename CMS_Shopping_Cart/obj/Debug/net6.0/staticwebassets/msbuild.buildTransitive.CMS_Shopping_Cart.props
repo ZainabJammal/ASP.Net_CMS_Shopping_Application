@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CMS_Shopping_Cart.props" />
+</Project>

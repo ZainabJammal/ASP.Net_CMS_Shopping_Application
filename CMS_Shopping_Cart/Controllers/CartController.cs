@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using CMS_Shopping_Cart.Infrastructure;
 using CMS_Shopping_Cart.Models;
 using Microsoft.AspNetCore.Mvc;
-    
+
 namespace CMS_Shopping_Cart.Controllers
 {
     public class CartController : Controller
@@ -21,7 +21,7 @@ namespace CMS_Shopping_Cart.Controllers
         {
             List<CartItem> cart = HttpContext.Session.GetJson<List<CartItem>>("Cart") ?? new List<CartItem>();
 
-            CartViewModel cartVM = new CartViewModel 
+            CartViewModel cartVM = new CartViewModel
             {
                 CartItems = cart,
                 GrandTotal = cart.Sum(x => x.Price * x.Quantity)
@@ -30,6 +30,7 @@ namespace CMS_Shopping_Cart.Controllers
         }
 
         //GET /cart/add/5
+        //[Route("/Cart/Add/{id}")]
         public async Task<IActionResult> Add(int id)
         {
             Product product = await context.Products.FindAsync(id);
@@ -47,9 +48,15 @@ namespace CMS_Shopping_Cart.Controllers
                 cartItem.Quantity += 1;
             }
 
-            HttpContext.Session.SetJson("Cart", cart);
 
-            return RedirectToAction("Index");
+
+            HttpContext.Session.SetJson("Cart", cart.ToList());
+
+            if (HttpContext.Request.Headers["X-Requested-With"] != "XMLHttpRequest")
+                return RedirectToAction("Index");
+
+            //return Json(new {success = true, data = cart});
+            return ViewComponent("SmallCart");
         }
 
         // GET /cart/decrease/5
@@ -104,7 +111,12 @@ namespace CMS_Shopping_Cart.Controllers
         {
             HttpContext.Session.Remove("Cart");
 
-            return RedirectToAction("Index");
+            //return RedirectToAction("Page", "Pages");
+            //return Redirect("/");
+            if (HttpContext.Request.Headers["X-Requested-With"] != "XMLHttpRequest")
+                return Redirect(Request.Headers["Referer"].ToString());
+
+            return Ok();
         }
     }
 }

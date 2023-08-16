@@ -244,3 +244,13 @@ C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_
 C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.pdb
 C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.genruntimeconfig.cache
 C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\ref\CMS_Shopping_Cart.dll
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\staticwebassets\msbuild.CMS_Shopping_Cart.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\staticwebassets\msbuild.build.CMS_Shopping_Cart.props
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CMS_Shopping_Cart.props
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CMS_Shopping_Cart.props
+C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\staticwebassets.pack.json
