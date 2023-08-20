@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CMS_Shopping_Cart.Controllers
 {
+    [Authorize]
     public class ProductsController : Controller
     {
         private readonly CmsShoppingCartContext context;

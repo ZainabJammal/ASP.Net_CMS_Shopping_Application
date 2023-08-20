@@ -21,6 +21,17 @@
                     <ul class="navbar-nav flex-grow-1">
                         @await Component.InvokeAsync("MainMenu")
                     </ul>
+
+                    <ul class="navbar-nav flex-grow-1 justify-content-end">
+                        <li class="nav-item">
+                            <a asp-controller="Account" asp-action="Login" class="btn btn-success">Log in</a>
+                        </li>
+                        &nbsp;
+                        <li class="nav-item ml-1">
+                            <a asp-controller="Account" asp-action="Register" class="btn btn-primary">Register</a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </nav>

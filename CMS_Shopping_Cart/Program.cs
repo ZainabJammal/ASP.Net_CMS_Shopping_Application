@@ -17,7 +17,14 @@ builder.Services.AddSession();
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<CmsShoppingCartContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CmsShoppingCartContext")));
-builder.Services.AddIdentity<AppUser, IdentityRole>()
+builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+{
+    options.Password.RequiredLength = 4;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+})
         .AddEntityFrameworkStores<CmsShoppingCartContext>()
         .AddDefaultTokenProviders();
 
@@ -47,8 +54,8 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseSession();
 
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute(
     "pages",
