@@ -65,8 +65,7 @@ app.MapControllerRoute(
 
 //app.MapControllerRoute(
 //        "products",
-//                  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-
+//         pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
 //        );
 
 app.MapControllerRoute(

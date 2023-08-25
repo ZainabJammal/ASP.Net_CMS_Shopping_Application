@@ -1,5 +1,6 @@
 ﻿using CMS_Shopping_Cart.Infrastructure;
 using CMS_Shopping_Cart.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -7,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CMS_Shopping_Cart.Areas.Admin.Controllers
 {
+    //[Authorize(Roles = "admin")]
     [Area("Admin")]
     public class ProductsController : Controller
     {

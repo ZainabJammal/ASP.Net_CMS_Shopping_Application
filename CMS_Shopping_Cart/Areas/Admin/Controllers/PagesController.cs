@@ -1,10 +1,12 @@
 ﻿using CMS_Shopping_Cart.Infrastructure;
 using CMS_Shopping_Cart.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CMS_Shopping_Cart.Areas.Admin.Controllers
 {
+    //[Authorize(Roles = "admin,editor")]
     [Area("Admin")]
     public class PagesController : Controller
     {
