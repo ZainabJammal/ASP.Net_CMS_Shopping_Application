@@ -25,7 +25,7 @@
                 @item.Price.ToString("C2")
             </p>
             <p>
-                <a asp-controller="Cart" asp-action="Add" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-primary addToCart">Add to cart</a>
+                <a data-id="@item.Id" class="btn btn-primary addToCart">Add to cart</a>
             </p>
         </div>
     }
@@ -33,7 +33,8 @@
     @if(ViewBag.TotalPages > 1)
     {
         <div class="d-flex w-100 justify-content-center">
-            <pagination page-count="@ViewBag.TotalPages" page-target="/products" page-number="@ViewBag.PageNumber" page-range="@ViewBag.PageRange"></pagination>
+            <pagination page-count="@ViewBag.TotalPages" page-target="/products/@ViewBag.CategorySlug"
+            page-number="@ViewBag.PageNumber" page-range="@ViewBag.PageRange"></pagination>
         </div>
     }
 
@@ -49,18 +50,36 @@
             ajaxDiv.removeClass("d-none");
             let id = $(this).data("id");
 
-            $.get('/cart/add/' + id, {}, function (data) {
-                $("div.smallcart").html(data);
-                ajaxDiv.find("img").addClass("d-none");
-                ajaxDiv.find("p").removeClass("d-none");
-                setTimeout(() => {
+            var formData = new FormData();
+            formData.append("id", id);
+
+            // $.get('/cart/add/' + id, {}, function (data) {
+            //     $("div.smallcart").html(data);
+            //     ajaxDiv.find("img").addClass("d-none");
+            //     ajaxDiv.find("p").removeClass("d-none");
+            //     setTimeout(() => {
+            //         ajaxDiv.animate({ opacity: 0 }, function () {
+            //             $(this).addClass("d-none").fadeTo(.1, 1);
+            //             $(this).find("img").removeClass("d-none");
+            //             $(this).find("p").addClass("d-none");
+            //         });
+            //     });
+            // });
+
+            $.ajax({
+                url: "/cart/add?id=" + id,
+                processData: false,
+                contentType: false,
+                data: formData,
+                method: "GET",
+                success: function (data) {
                     ajaxDiv.animate({ opacity: 0 }, function () {
                         $(this).addClass("d-none").fadeTo(.1, 1);
                         $(this).find("img").removeClass("d-none");
                         $(this).find("p").addClass("d-none");
                     });
-                });
-            });
+                }
+            })
         });
 
     });

@@ -59,6 +59,10 @@ namespace CMS_Shopping_Cart.Controllers
         [AllowAnonymous]
         public IActionResult Login(string returnUrl)
         {
+            if (string.IsNullOrEmpty(returnUrl))
+            {
+                returnUrl = "/products/index";
+            }
             Login login = new Login
             {
                 ReturnUrl = returnUrl

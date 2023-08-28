@@ -49,7 +49,7 @@ namespace CMS_Shopping_Cart.Infrastructure
         {
             if(PageNumber != PageCount)
             {
-                content.Append($"<li class='page-item'><a class='page-link' href='{PageTarget}?p={PageCount}'>{PageLast}</a></li>");
+                content.Append($"<li class='page-item'><a class='page-link' href='{PageTarget}index?p={PageCount}'>{PageLast}</a></li>");
             }
             content.Append(" </ul");
         }
@@ -63,7 +63,7 @@ namespace CMS_Shopping_Cart.Infrastructure
                     continue;
                 }
                 var active = currentPage == PageNumber ? "active" : "";
-                content.Append($"<li class='page-item {active}'><a class='page-link'href='{PageTarget}?p={currentPage}'>{currentPage}</a></li>");
+                content.Append($"<li class='page-item {active}'><a class='page-link'href='{PageTarget}index?p={currentPage}'>{currentPage}</a></li>");
             }
         }
 
@@ -76,7 +76,7 @@ namespace CMS_Shopping_Cart.Infrastructure
                     continue;
                 }
                 var active = currentPage == PageNumber ? "active" : "";
-                content.Append($"<li class='page-item {active}'><a class='page-link'href='{PageTarget}?p={currentPage}'>{currentPage}</a></li>");
+                content.Append($"<li class='page-item {active}'><a class='page-link'href='{PageTarget}index?p={currentPage}'>{currentPage}</a></li>");
             }
         }
 
@@ -89,7 +89,7 @@ namespace CMS_Shopping_Cart.Infrastructure
                     continue;
                 }
                 var active = currentPage == PageNumber ? "active" : "";
-                content.Append($"<li class='page-item {active}'><a class='page-link'href='{PageTarget}?p={currentPage}'>{currentPage}</a></li>");
+                content.Append($"<li class='page-item {active}'><a class='page-link'href='{PageTarget}index?p={currentPage}'>{currentPage}</a></li>");
             }
         }
 

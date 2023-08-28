@@ -10,7 +10,7 @@
     <div class="col-md-10">
         <form asp-action="Login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="ReturnUrl" />
+            <input type="hidden" asp-for="ReturnUrl" value="@Model.ReturnUrl"/>
 
             <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
