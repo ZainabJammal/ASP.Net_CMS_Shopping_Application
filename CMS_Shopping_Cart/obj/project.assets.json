@@ -10867,11 +10867,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zeinab\\source\\repos\\ZainabAlJammal\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\CMS_Shopping_Cart.csproj",
+      "projectUniqueName": "C:\\Users\\Zeinab\\Source\\Repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\CMS_Shopping_Cart.csproj",
       "projectName": "CMS_Shopping_Cart",
-      "projectPath": "C:\\Users\\Zeinab\\source\\repos\\ZainabAlJammal\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\CMS_Shopping_Cart.csproj",
+      "projectPath": "C:\\Users\\Zeinab\\Source\\Repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\CMS_Shopping_Cart.csproj",
       "packagesPath": "C:\\Users\\Zeinab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zeinab\\source\\repos\\ZainabAlJammal\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\obj\\",
+      "outputPath": "C:\\Users\\Zeinab\\Source\\Repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zeinab\\AppData\\Roaming\\NuGet\\NuGet.Config",

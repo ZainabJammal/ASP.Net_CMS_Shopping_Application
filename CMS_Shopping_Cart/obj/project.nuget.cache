@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FLGfwJsIVpyB5jZlsMymjrNFiUFJ8vIU8lVSKZlv7QmtFyV+3QLF6wGrUgPiiPCOkHNax3jEGC1iZhS5Lkdfuw==",
+  "dgSpecHash": "c25wExgiHGW6gojuA3Nej7Up04ZvocbThCoZc96Shd9Qk3m0t/tMhMjd4q40UBc53IlBhDYkphsGu6Fbm0UYqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zeinab\\source\\repos\\ZainabAlJammal\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\CMS_Shopping_Cart.csproj",
+  "projectFilePath": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\CMS_Shopping_Cart.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zeinab\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Zeinab\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
