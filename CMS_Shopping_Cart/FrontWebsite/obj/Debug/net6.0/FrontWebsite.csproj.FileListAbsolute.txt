@@ -1,0 +1,8 @@
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\FrontWebsite\obj\Debug\net6.0\FrontWebsite.csproj.AssemblyReference.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\FrontWebsite\obj\Debug\net6.0\FrontWebsite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\FrontWebsite\obj\Debug\net6.0\FrontWebsite.AssemblyInfoInputs.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\FrontWebsite\obj\Debug\net6.0\FrontWebsite.AssemblyInfo.cs
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\FrontWebsite\obj\Debug\net6.0\FrontWebsite.csproj.CoreCompileInputs.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\FrontWebsite\obj\Debug\net6.0\FrontWebsite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\FrontWebsite\obj\Debug\net6.0\FrontWebsite.RazorAssemblyInfo.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\FrontWebsite\obj\Debug\net6.0\FrontWebsite.RazorAssemblyInfo.cs

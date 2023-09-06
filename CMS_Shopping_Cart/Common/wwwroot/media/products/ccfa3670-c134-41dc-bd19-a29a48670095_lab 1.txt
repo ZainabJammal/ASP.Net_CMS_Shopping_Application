@@ -1,0 +1,60 @@
+void Push(node **headRef ,int data){
+    node *newnode;
+    newnode = (node *)malloc(sizeof(node));
+    newnode->data = data;
+    newnode->next = *headRef;
+    *headRef = newnode;
+}
+
+node * createlist(char* fileName)
+{
+    int i=0 ,nb;
+    int arr[4000];
+    char c;
+    
+    FILE *f;
+    f = fopen(fileName ,"r");
+    
+    if(f == NULL){
+        return NULL;
+        exit(0);
+    }
+    
+    //file to array
+    while((c = fgetc(f)) != '\n'){
+        nb = c - '0';
+        arr[i] = nb;
+        i++;
+    }
+    
+    int remain = (i)%5;
+    int j ,d = 0;
+    
+    //array to linked list
+    node *head = NULL;
+    node **headRef = &head;
+    
+    Push(headRef , -1); //first node
+    headRef = &((*headRef)->next);
+    
+    //Second node
+    for(j=0 ;j < remain ;j++){
+        d = d * 10 + arr[j];
+    }
+    Push(headRef , d);
+    
+    (*headRef)->next=head;//make circular
+    
+    //rest of node 
+    while(j < i){
+        d = 0;
+        int n = j;
+        for( ;j < n + 5 ;j++){
+            d = d * 10 + arr[j];
+        }
+        Push(headRef , d);
+    }
+    
+    return head;
+    fclose(f);
+}

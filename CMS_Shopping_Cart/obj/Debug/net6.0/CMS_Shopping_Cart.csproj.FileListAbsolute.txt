@@ -254,3 +254,14 @@ C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_
 C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.pdb
 C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.genruntimeconfig.cache
 C:\Users\Zeinab\source\repos\ZainabAlJammal\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\ref\CMS_Shopping_Cart.dll
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.csproj.AssemblyReference.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.AssemblyInfoInputs.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.AssemblyInfo.cs
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.csproj.CoreCompileInputs.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.RazorAssemblyInfo.cache
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.RazorAssemblyInfo.cs
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.dll
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\refint\CMS_Shopping_Cart.dll
+C:\Users\Zeinab\source\repos\.Net2023ZainabAlJammal\CMS_Shopping_Cart\obj\Debug\net6.0\CMS_Shopping_Cart.pdb
