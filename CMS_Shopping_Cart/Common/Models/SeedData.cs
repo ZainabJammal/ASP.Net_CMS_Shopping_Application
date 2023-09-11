@@ -1,7 +1,7 @@
-﻿using CMS_Shopping_Cart.Infrastructure;
+﻿using Common.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
-namespace CMS_Shopping_Cart.Models
+namespace Common.Models
 {
     public class SeedData
     {

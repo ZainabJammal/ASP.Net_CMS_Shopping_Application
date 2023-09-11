@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace CMS_Shopping_Cart.Infrastructure
+namespace Common.Infrastructure
 {
     public static class SessionExtensions
     {

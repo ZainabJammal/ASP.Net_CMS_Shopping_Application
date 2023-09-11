@@ -6,7 +6,8 @@
     <title>@ViewData["Title"] - CMS_Shopping_Cart</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/CMS_Shopping_Cart.styles.css" asp-append-version="true" />
+    <link href="~/common/wwwroot/css/site.css" rel="stylesheet" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/FrontWebsite.styles.css" asp-append-version="true" /> *@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
@@ -20,7 +21,7 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        @await Component.InvokeAsync("MainMenu")
+                        @await Component.InvokeAsync("MainMenu") 
                     </ul>
 
                     <ul class="navbar-nav flex-grow-1 justify-content-end">
@@ -61,8 +62,7 @@
             <partial name="_NotificationPartial" />
             <div class="row">
                 <div class="col-3">
-                    @await Component.InvokeAsync("Categories")
-
+                    @await Component.InvokeAsync("Categories") 
                     <div class="smallcart bg-success mt-3 p-3 text-white">
                         @await Component.InvokeAsync("SmallCart")
                     </div>

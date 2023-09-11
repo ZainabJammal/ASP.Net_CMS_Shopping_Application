@@ -1,4 +1,4 @@
-﻿namespace CMS_Shopping_Cart.Models
+﻿namespace Common.Models
 {
     public class CartViewModel
     {

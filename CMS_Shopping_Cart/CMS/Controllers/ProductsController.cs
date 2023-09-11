@@ -1,5 +1,5 @@
-﻿using CMS_Shopping_Cart.Infrastructure;
-using CMS_Shopping_Cart.Models;
+﻿using Common.Models;
+using Common.Infrastructure;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CMS.Controllers
 {
-    //[Authorize(Roles = "admin")]
+    [Authorize(Roles = "admin")]
     //[Area("Admin")]
     public class ProductsController : Controller
     {

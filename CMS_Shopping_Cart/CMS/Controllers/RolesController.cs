@@ -1,4 +1,4 @@
-﻿using CMS_Shopping_Cart.Models;
+﻿using Common.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CMS.Controllers
 {
-    //[Authorize(Roles = "admin")]
+    [Authorize(Roles = "admin")]
     //[Area("Admin")]
     public class RolesController : Controller
     {

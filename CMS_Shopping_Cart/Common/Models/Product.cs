@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using CMS_Shopping_Cart.Infrastructure;
+using Common.Infrastructure;
 using Microsoft.AspNetCore.Http;
 
-namespace CMS_Shopping_Cart.Models
+namespace Common.Models
 {
     public class Product
     {

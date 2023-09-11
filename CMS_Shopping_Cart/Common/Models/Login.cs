@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace CMS_Shopping_Cart.Models
+namespace Common.Models
 {
     [Keyless]
     public class Login

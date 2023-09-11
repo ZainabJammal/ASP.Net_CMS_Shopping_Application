@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CMS_Shopping_Cart.Infrastructure
+namespace Common.Infrastructure
 {
     internal class FileExtensionAttribute : ValidationAttribute
     {

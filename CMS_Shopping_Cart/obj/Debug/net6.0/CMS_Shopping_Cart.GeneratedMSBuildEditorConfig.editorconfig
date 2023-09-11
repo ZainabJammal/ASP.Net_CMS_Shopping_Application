@@ -168,16 +168,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q01TXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/Common/Views/Shared/Components/Categories/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXENhdGVnb3JpZXNcRGVmYXVsdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/Common/Views/Shared/Components/MainMenu/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXE1haW5NZW51XERlZmF1bHQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/Common/Views/Shared/Components/SmallCart/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFNtYWxsQ2FydFxEZWZhdWx0LmNzaHRtbA==
+[C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/Common/Views/Shared/_NotificationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tbW9uXFZpZXdzXFNoYXJlZFxfTm90aWZpY2F0aW9uUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/Common/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -222,6 +214,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/FrontWebsite/Views/Products/ProductsByCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RnJvbnRXZWJzaXRlXFZpZXdzXFByb2R1Y3RzXFByb2R1Y3RzQnlDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/FrontWebsite/Views/Shared/Components/Categories/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRXZWJzaXRlXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXENhdGVnb3JpZXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/FrontWebsite/Views/Shared/Components/MainMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRXZWJzaXRlXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXE1haW5NZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/FrontWebsite/Views/Shared/Components/SmallCart/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RnJvbnRXZWJzaXRlXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFNtYWxsQ2FydFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zeinab/source/repos/.Net2023ZainabAlJammal/CMS_Shopping_Cart/FrontWebsite/Views/Shared/_ValidationScriptsPartial.cshtml]

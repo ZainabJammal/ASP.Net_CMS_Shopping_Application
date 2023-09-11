@@ -1,5 +1,5 @@
-﻿using CMS_Shopping_Cart.Infrastructure;
-using CMS_Shopping_Cart.Models;
+﻿using Common.Models;
+using Common.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

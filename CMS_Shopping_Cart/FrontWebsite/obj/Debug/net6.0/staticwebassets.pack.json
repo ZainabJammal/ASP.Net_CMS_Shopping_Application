@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FrontWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FrontWebsite.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\0b13f963-a167-4298-a319-062b76d6a71b_blue T-shirt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0b13f963-a167-4298-a319-062b76d6a71b_blue T-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\28cc7579-eaa4-472c-b516-8117907f5d41_pink T-shirt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\28cc7579-eaa4-472c-b516-8117907f5d41_pink T-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\4153a2e8-ec49-4613-90d2-0df03d55d06c_watermelon.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\4153a2e8-ec49-4613-90d2-0df03d55d06c_watermelon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\419ade21-1915-40f0-9612-56a668561a22_grapes.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\419ade21-1915-40f0-9612-56a668561a22_grapes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\63765ccc-3203-4dd9-84f2-99846c0e6559_pink T-shirt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\63765ccc-3203-4dd9-84f2-99846c0e6559_pink T-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\737849a7-90d3-40e3-b43b-ac69fc5fba33_grey T-shirt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\737849a7-90d3-40e3-b43b-ac69fc5fba33_grey T-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\7a1e6752-0453-4f07-8964-9cdd97bf2f4c_black T-shirt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\7a1e6752-0453-4f07-8964-9cdd97bf2f4c_black T-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\81fe91b2-7e20-49fb-a00c-7deffd8c7970_banana.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\81fe91b2-7e20-49fb-a00c-7deffd8c7970_banana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\84f5c347-03ef-4e59-992a-bb061809eb85_yellow T-shirt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\84f5c347-03ef-4e59-992a-bb061809eb85_yellow T-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\8d205bc2-52cb-48a4-ab1e-12f10a044a34_test.txt",
+      "PackagePath": "staticwebassets\\media\\products\\8d205bc2-52cb-48a4-ab1e-12f10a044a34_test.txt"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\9dece311-fe88-40d4-8d18-358c7f62bea9_orange.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\9dece311-fe88-40d4-8d18-358c7f62bea9_orange.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\c9ab7c75-37e8-415a-8eae-4674b342b529_test.txt",
+      "PackagePath": "staticwebassets\\media\\products\\c9ab7c75-37e8-415a-8eae-4674b342b529_test.txt"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\ccfa3670-c134-41dc-bd19-a29a48670095_lab 1.txt",
+      "PackagePath": "staticwebassets\\media\\products\\ccfa3670-c134-41dc-bd19-a29a48670095_lab 1.txt"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\e8eb2d3d-49ad-46b9-b3a8-aeb635122a39_kiwi.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e8eb2d3d-49ad-46b9-b3a8-aeb635122a39_kiwi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\f73b2159-7a95-426a-a31f-c2fdbc71de71_white T-shirt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f73b2159-7a95-426a-a31f-c2fdbc71de71_white T-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\fc2dd95d-8f97-423b-9ed2-92766dc876b1_blue T-shirt.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\fc2dd95d-8f97-423b-9ed2-92766dc876b1_blue T-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\noimage.png",
+      "PackagePath": "staticwebassets\\media\\products\\noimage.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FrontWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FrontWebsite.props",
+      "PackagePath": "build\\FrontWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FrontWebsite.props",
+      "PackagePath": "buildMultiTargeting\\FrontWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FrontWebsite.props",
+      "PackagePath": "buildTransitive\\FrontWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

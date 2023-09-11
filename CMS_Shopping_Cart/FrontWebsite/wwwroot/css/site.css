@@ -16,3 +16,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+form.paypalform {
+    position: absolute;
+    left: -3000px;
+}

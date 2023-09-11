@@ -1,8 +1,8 @@
-﻿using CMS_Shopping_Cart.Models;
+﻿using Common.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace CMS_Shopping_Cart.Infrastructure
+namespace Common.Infrastructure
 {
     [HtmlTargetElement("td", Attributes = "user-role")]
     public class RolesTagHelper : TagHelper
