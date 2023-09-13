@@ -79,17 +79,24 @@ namespace FrontWebsite.Controllers
         {
             if (ModelState.IsValid)
             {
-                AppUser appUser = await userManager.FindByEmailAsync(login.Email);
-                if (appUser != null)
+                try
                 {
-                    Microsoft.AspNetCore.Identity.SignInResult result = await signInManager.PasswordSignInAsync(appUser, login.Password, false, false);
-                    if (result.Succeeded)
-                        return Redirect(login.ReturnUrl ?? "/");
+                    AppUser appUser = await userManager.FindByEmailAsync(login.Email);
+                    if (appUser != null)
+                    {
+                        Microsoft.AspNetCore.Identity.SignInResult result = await signInManager.PasswordSignInAsync(appUser, login.Password, false, false);
+                        if (result.Succeeded)
+                            return Redirect(login.ReturnUrl ?? "/");
+                    }
+                    ModelState.AddModelError("", "Login failed, wrong credentials.");
                 }
-                ModelState.AddModelError("", "Login failed, wrong credentials.");
-            }
+                catch (Exception ex)
+                { 
 
-            return View(login);
+                }
+                return View(login);
+            }
+            return null;
         }
 
         // GET /account/logout
