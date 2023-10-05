@@ -21,7 +21,11 @@
                     <ul class="navbar-nav flex-grow-1">
                         @await Component.InvokeAsync("MainMenu") 
                     </ul>
-
+                    <ul class="navbar-nav flex-grow-1">
+                        <form asp-controller="Products" asp-action="Search" method="get">
+                            <input type="text" name="searchquery" placeholder="What are you looking for?" class="search">
+                        </form>
+                    </ul>
                     <ul class="navbar-nav flex-grow-1 justify-content-end">
                         @if (User?.Identity?.IsAuthenticated ?? false)
                         {

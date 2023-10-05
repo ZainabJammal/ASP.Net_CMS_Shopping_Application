@@ -1,0 +1,56 @@
+﻿@model List<Common.Models.Product>
+
+<h1>Search Results</h1>
+
+<div>
+    @foreach (var item in Model)
+    {
+        <div class="productSearch">
+            <img src="~/media/products/@item.Image" class="img-fluid" alt="" />
+            <h4>@item.Name</h4>
+            <div>
+                @Html.Raw(item.Description)
+            </div>
+            <p> @item.Price.ToString("C2") </p>
+            <p>
+                <a data-id="@item.Id" class="btn btn-primary addToCart">Add to cart</a>
+            </p>
+        </div>
+    }
+
+
+</div>
+
+
+<script>
+    $(function () {
+
+        $("a.addToCart").click(function (e) {
+            e.preventDefault();
+
+            let ajaxDiv = $(this).parent().parent().find("div.ajaxbg");
+            ajaxDiv.removeClass("d-none");
+            let id = $(this).data("id");
+
+            var formData = new FormData();
+            formData.append("id", id);
+
+
+            $.ajax({
+                url: "/cart/add?id=" + id,
+                processData: false,
+                contentType: false,
+                data: formData,
+                method: "GET",
+                success: function (data) {
+                    ajaxDiv.animate({ opacity: 0 }, function () {
+                        $(this).addClass("d-none").fadeTo(.1, 1);
+                        $(this).find("img").removeClass("d-none");
+                        $(this).find("p").addClass("d-none");
+                    });
+                }
+            })
+        });
+
+    });
+</script>

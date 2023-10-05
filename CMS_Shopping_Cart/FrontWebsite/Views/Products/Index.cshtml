@@ -1,10 +1,14 @@
-﻿@model IEnumerable<Product>
+﻿@model List<Common.Models.Product>
 
 @{
     ViewData["Title"] = "Products";
 }
 
 <h1 class="display-4 pb-5">All Products</h1>
+
+
+<br />
+
 
 <div class="row">
     @foreach (var item in Model)
@@ -83,5 +87,20 @@
         });
 
     });
+
+    // function FilterProducts(selectElement) {
+    //     var selectedCategoryId = selectElement.value;
+
+    //     // Construct the URL for filtering by category
+    //     var url = '@Url.Action("Index", "Products")'; // Default URL without any category filter
+
+    //     if (selectedCategoryId !== "0") {
+    //         url += '?categoryId=' + selectedCategoryId; // Append the selected category as a query parameter
+    //     }
+
+    //     // Redirect to the filtered URL
+    //     window.location.href = url;
+    // }
+
 </script>
 

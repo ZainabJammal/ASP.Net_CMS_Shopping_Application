@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CMS.Controllers
 {
-    [Authorize(Roles = "admin")]
+    //[Authorize(Roles = "admin")]
     //[Area("Admin")]
     public class RolesController : Controller
     {

@@ -10805,7 +10805,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Common >= 1.0.0"
+      "Common >= 1.0.0",
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16"
     ]
   },
   "packageFolders": {
@@ -10850,6 +10851,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[6.0.16, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

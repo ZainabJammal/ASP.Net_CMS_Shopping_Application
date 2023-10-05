@@ -50,5 +50,24 @@ namespace FrontWebsite.Controllers
 
             return View(await products.ToListAsync());
         }
+
+
+        public IActionResult Search(string searchquery)
+        {
+            var results = context.Products.Where(p => p.Name.Contains(searchquery)).ToList();
+            return View(results); 
+        }
+
+        //public IActionResult Filter(int? categoryId)
+        //{
+        //    IQueryable<Product> products = context.Products.Include(p => p.Category);
+
+        //    if (categoryId.HasValue)
+        //    {
+        //        products = products.Where(p => p.CategoryId == categoryId);
+        //    }
+
+        //    return View(products.ToList());
+        //}
     }
 }

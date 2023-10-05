@@ -6,6 +6,19 @@
 
 <h1 class="display-4 pb-5">@ViewBag.CategoryName</h1>
 
+<div class="justify-content-end">
+    <form asp-controller="Products" asp-action="Search" method="get">
+
+
+        <input type="text" class="col-10" name="searchquery" placeholder="Search...">
+
+        <button class="btn btn-primary" type="submit">Search</button>
+
+    </form>
+</div>
+<br />
+
+
 <div class="row">
     @foreach (var item in Model)
         {

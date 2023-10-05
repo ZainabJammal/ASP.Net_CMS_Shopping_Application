@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CMS.Controllers
 {
-    [Authorize(Roles = "admin")]
+    //[Authorize(Roles = "admin")]
     //[Area("Admin")]
     public class ProductsController : Controller
     {
