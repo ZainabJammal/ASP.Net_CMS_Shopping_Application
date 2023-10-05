@@ -1,5 +1,6 @@
 ﻿@model Common.Models.SmallCartViewModel
 
+@* 
 @if (Model != null)
 {
     <p>Items in cart: <span class="badge badge-primary">@Model.NumberOfItems</span> </p>
@@ -11,4 +12,14 @@
 else
 {
     <p class="lead m-0">Your cart is empty.</p>
+}
+ *@
+
+ @if (Model != null)
+{
+    <div class="badge badge-primary">@Model.NumberOfItems</div>
+}
+else
+{
+    <div class="badge badge-primary">0</div>
 }

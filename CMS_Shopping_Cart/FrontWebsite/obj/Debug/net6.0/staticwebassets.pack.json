@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\images\\ajax-loader.gif"
     },
     {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\images\\cart.png",
+      "PackagePath": "staticwebassets\\images\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
       "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -22407,74 +22415,6 @@
     {
       "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\lib\\jqueryui\\themes\\vader\\theme.min.css",
       "PackagePath": "staticwebassets\\lib\\jqueryui\\themes\\vader\\theme.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\0b13f963-a167-4298-a319-062b76d6a71b_blue T-shirt.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\0b13f963-a167-4298-a319-062b76d6a71b_blue T-shirt.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\28cc7579-eaa4-472c-b516-8117907f5d41_pink T-shirt.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\28cc7579-eaa4-472c-b516-8117907f5d41_pink T-shirt.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\4153a2e8-ec49-4613-90d2-0df03d55d06c_watermelon.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\4153a2e8-ec49-4613-90d2-0df03d55d06c_watermelon.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\419ade21-1915-40f0-9612-56a668561a22_grapes.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\419ade21-1915-40f0-9612-56a668561a22_grapes.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\63765ccc-3203-4dd9-84f2-99846c0e6559_pink T-shirt.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\63765ccc-3203-4dd9-84f2-99846c0e6559_pink T-shirt.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\737849a7-90d3-40e3-b43b-ac69fc5fba33_grey T-shirt.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\737849a7-90d3-40e3-b43b-ac69fc5fba33_grey T-shirt.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\7a1e6752-0453-4f07-8964-9cdd97bf2f4c_black T-shirt.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\7a1e6752-0453-4f07-8964-9cdd97bf2f4c_black T-shirt.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\81fe91b2-7e20-49fb-a00c-7deffd8c7970_banana.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\81fe91b2-7e20-49fb-a00c-7deffd8c7970_banana.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\84f5c347-03ef-4e59-992a-bb061809eb85_yellow T-shirt.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\84f5c347-03ef-4e59-992a-bb061809eb85_yellow T-shirt.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\8d205bc2-52cb-48a4-ab1e-12f10a044a34_test.txt",
-      "PackagePath": "staticwebassets\\media\\products\\8d205bc2-52cb-48a4-ab1e-12f10a044a34_test.txt"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\9dece311-fe88-40d4-8d18-358c7f62bea9_orange.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\9dece311-fe88-40d4-8d18-358c7f62bea9_orange.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\c9ab7c75-37e8-415a-8eae-4674b342b529_test.txt",
-      "PackagePath": "staticwebassets\\media\\products\\c9ab7c75-37e8-415a-8eae-4674b342b529_test.txt"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\ccfa3670-c134-41dc-bd19-a29a48670095_lab 1.txt",
-      "PackagePath": "staticwebassets\\media\\products\\ccfa3670-c134-41dc-bd19-a29a48670095_lab 1.txt"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\e8eb2d3d-49ad-46b9-b3a8-aeb635122a39_kiwi.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\e8eb2d3d-49ad-46b9-b3a8-aeb635122a39_kiwi.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\f73b2159-7a95-426a-a31f-c2fdbc71de71_white T-shirt.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\f73b2159-7a95-426a-a31f-c2fdbc71de71_white T-shirt.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\fc2dd95d-8f97-423b-9ed2-92766dc876b1_blue T-shirt.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\fc2dd95d-8f97-423b-9ed2-92766dc876b1_blue T-shirt.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Zeinab\\source\\repos\\.Net2023ZainabAlJammal\\CMS_Shopping_Cart\\FrontWebsite\\wwwroot\\media\\products\\noimage.png",
-      "PackagePath": "staticwebassets\\media\\products\\noimage.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FrontWebsite.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -10,9 +10,11 @@ namespace FrontWebsite.Controllers
     public class ProductsController : Controller
     {
         private readonly CmsShoppingCartContext context;
-        public ProductsController(CmsShoppingCartContext context)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public ProductsController(CmsShoppingCartContext context, IWebHostEnvironment _webHostEnvironment)
         {
             this.context = context;
+            this._webHostEnvironment = _webHostEnvironment;
         }
 
         //GET / products

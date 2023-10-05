@@ -20,7 +20,7 @@
                     The product has been added!
                 </p>
             </div>
-            <img  src="~/media/products/@item.Image"   class="img-fluid" alt="" />
+            <img src="https://localhost:7241/media/products/@item.Image" class="img-fluid" alt="" />
             <h4>@item.Name</h4>
             <div>
                 @Html.Raw(item.Description)
@@ -57,18 +57,6 @@
             var formData = new FormData();
             formData.append("id", id);
 
-            // $.get('/cart/add/' + id, {}, function (data) {
-            //     $("div.smallcart").html(data);
-            //     ajaxDiv.find("img").addClass("d-none");
-            //     ajaxDiv.find("p").removeClass("d-none");
-            //     setTimeout(() => {
-            //         ajaxDiv.animate({ opacity: 0 }, function () {
-            //             $(this).addClass("d-none").fadeTo(.1, 1);
-            //             $(this).find("img").removeClass("d-none");
-            //             $(this).find("p").addClass("d-none");
-            //         });
-            //     });
-            // });
 
             $.ajax({
                 url: "/cart/add?id=" + id,
@@ -88,19 +76,5 @@
 
     });
 
-    // function FilterProducts(selectElement) {
-    //     var selectedCategoryId = selectElement.value;
-
-    //     // Construct the URL for filtering by category
-    //     var url = '@Url.Action("Index", "Products")'; // Default URL without any category filter
-
-    //     if (selectedCategoryId !== "0") {
-    //         url += '?categoryId=' + selectedCategoryId; // Append the selected category as a query parameter
-    //     }
-
-    //     // Redirect to the filtered URL
-    //     window.location.href = url;
-    // }
-
-</script>
+ </script>
 

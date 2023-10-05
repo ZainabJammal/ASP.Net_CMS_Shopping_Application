@@ -6,16 +6,7 @@
 
 <h1 class="display-4 pb-5">@ViewBag.CategoryName</h1>
 
-<div class="justify-content-end">
-    <form asp-controller="Products" asp-action="Search" method="get">
 
-
-        <input type="text" class="col-10" name="searchquery" placeholder="Search...">
-
-        <button class="btn btn-primary" type="submit">Search</button>
-
-    </form>
-</div>
 <br />
 
 
@@ -29,7 +20,7 @@
                     The product has been added!
                 </p>
             </div>
-            <img src="~/media/products/@item.Image" class="img-fluid" alt="" />
+            <img src="https://localhost:7241/media/products/@item.Image" class="img-fluid" alt="" />
             <h4>@item.Name</h4>
             <div>
                 @Html.Raw(item.Description)
@@ -45,7 +36,8 @@
     @if(ViewBag.TotalPages > 1)
     {
         <div class="d-flex w-100 justify-content-center">
-        <pagination page-count="@ViewBag.TotalPages" page-target="/products/@ViewBag.CategorySlug" page-number="@ViewBag.PageNumber" page-range="@ViewBag.PageRange"></pagination>
+        <pagination page-count="@ViewBag.TotalPages" page-target="/products/@ViewBag.CategorySlug" 
+         page-number="@ViewBag.PageNumber" page-range="@ViewBag.PageRange"></pagination>
         </div>
     }
 </div>

@@ -4,9 +4,12 @@
     ViewData["Title"] = "Login";
 }
 
-<h1>Login</h1>
+<h1 style="text-align:center">Welcome!</h1>
+<h3 style="text-align:center">Sign in to your account</h3>
+<br />
+<p style="text-align:center">Don't have an account? <a href="~/Account/Register">Sign Up</a></p>
 <hr />
-<div class="row">
+<div class="row" style="justify-content:center; align-items:center">
     <div class="col-md-10">
         <form asp-action="Login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -24,8 +27,8 @@
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
             <br />
-            <div class="form-group">
-                <input type="submit" value="Log in" class="btn btn-primary" />
+            <div class="form-group" >
+                <input type="submit" value="Sign In" class="btn btn-primary" />
             </div>
         </form>
     </div>

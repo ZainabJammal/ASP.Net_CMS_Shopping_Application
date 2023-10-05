@@ -41,7 +41,7 @@ namespace CMS.Controllers
 
     //    }
 
-    //    //GET /homw/register
+    //    //GET /home/register
     //    [AllowAnonymous]
     //    public IActionResult Register() => View();
 

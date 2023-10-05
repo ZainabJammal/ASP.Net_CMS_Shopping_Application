@@ -4,9 +4,11 @@
     ViewData["Title"] = "Register";
 }
 
-<h1>Register</h1>
+<h1 style="text-align:center">Create an account</h1>
+<br />
+<p style="text-align:center">Already have an account? <a href="~/Account/Login">Sign In</a></p>
 <hr />
-<div class="row">
+<div class="row" style="justify-content:center; align-items:center">
     <div class="col-md-10">
         <form asp-action="Register">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -30,7 +32,7 @@
             </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Register" class="btn btn-primary" />
+                <input type="submit" value="Create Account" class="btn btn-primary" />
             </div>
         </form>
     </div>

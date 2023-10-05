@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CMS Shopping Cart</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -45,13 +45,15 @@
                         }
                         else
                         {
-                            <li class="nav-item">
-                                <a asp-controller="Account" asp-action="Login" class="btn btn-success">Log in</a>
+                            <li>
+                                <a href="~/Account/Login"><img src="~/images/user.png" style="width:40px; height:40px" alt="Sign In"/></a>
                             </li>
                             @:&nbsp;
-                            <li class="nav-item ml-1">
-                                <a asp-controller="Account" asp-action="Register" class="btn btn-primary">Register</a>
+                            @:&nbsp;
+                            <li>
+                                <a href="~/Cart/Index"><img src="~/images/cart.png" style="width:40px; height:40px" alt="Cart" /></a>
                             </li>
+                            <li><div class="smallcart">@await Component.InvokeAsync("SmallCart")</div></li>
                         }
 
                     </ul>
@@ -66,10 +68,6 @@
             <div class="row">
                 <div class="col-3">
                     @await Component.InvokeAsync("Categories") 
-                    <div class="smallcart bg-success mt-3 p-3 text-white">
-                        @await Component.InvokeAsync("SmallCart")
-                    </div>
-
                 </div>
                 <div class="col">
                     @RenderBody()
